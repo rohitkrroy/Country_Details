@@ -12,12 +12,12 @@ import { CountryDetails } from "./Components/Layout/CountryDetails";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/Country_Details",
     element: <AppLayout />,
     errorElement: <ErrorPage />,
     children: [
       {
-        path: "/",
+        path: "/Country_Details",
         element: <Home />,
       },
       {
