@@ -12,12 +12,12 @@ import { CountryDetails } from "./Components/Layout/CountryDetails";
 
 const router = createBrowserRouter([
   {
-    path: "/Country_Details",
+    path: "/",
     element: <AppLayout />,
     errorElement: <ErrorPage />,
     children: [
       {
-        path: "/Country_Details",
+        path: "/",
         element: <Home />,
       },
       {
@@ -38,7 +38,11 @@ const router = createBrowserRouter([
       },
     ],
   },
-]);
+], {
+    basename: "/Country_Details",
+  }
+
+);
 
 const App = () => {
   return <RouterProvider router={router}> </RouterProvider>;
