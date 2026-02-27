@@ -4,8 +4,6 @@ import { IoCallSharp } from "react-icons/io5";
 import { MdPlace } from "react-icons/md";
 import { TbMailPlus } from "react-icons/tb";
 
-import { NavLink } from "react-router-dom";
-
 export const Footers = () => {
   const footerIcon = {
     MdPlace: <MdPlace />,
@@ -32,12 +30,8 @@ export const Footers = () => {
 
       <div className="copyright-area">
         <div className="container">
-          <div className="grid grid-two-cols">
-            <div className="copyright-text">
-              <p>
-                Copyright &copy; 2024, All Right Reserved <b>Rohit Kumar</b>
-              </p>
-            </div>
+          <div className="copyright-text">
+            <p>Copyright &copy; 2024, All Right Reserved <b>Rohit Kumar</b></p>
           </div>
         </div>
       </div>
