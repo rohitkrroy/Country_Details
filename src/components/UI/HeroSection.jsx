@@ -23,7 +23,7 @@ export const HeroSection = () => {
             src="/Country_Details/images/world.png"
             alt="world is beauty"
             className="banner-image"
-          />
+          />     
         </div>
       </div>
     </main>
